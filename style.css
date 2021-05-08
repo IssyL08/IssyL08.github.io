@@ -1,0 +1,168 @@
+
+
+body {
+  padding: 40px;
+  overflow-x: hidden; /* For Opera */
+  -webkit-box-shadow:
+    inset #19d4ff 0 0 0 5px,
+    inset #18cdf7 0 0 0 1px,
+    inset #53dfff 0 0 0 10px,
+    inset #50d8f7 0 0 0 11px,
+    inset #8ce9ff 0 0 0 16px,
+    inset #88e2f7 0 0 0 17px,
+    inset #c5f4ff 0 0 0 22px,
+    inset #bfecf7 0 0 0 23px;
+  -moz-box-shadow:
+    inset #19d4ff 0 0 0 5px,
+    inset #18cdf7 0 0 0 1px,
+    inset #53dfff 0 0 0 10px,
+    inset #50d8f7 0 0 0 11px,
+    inset #8ce9ff 0 0 0 16px,
+    inset #88e2f7 0 0 0 17px,
+    inset #c5f4ff 0 0 0 22px,
+    inset #bfecf7 0 0 0 23px;
+  box-shadow:
+    inset #19d4ff 0 0 0 5px,
+    inset #18cdf7 0 0 0 1px,
+    inset #53dfff 0 0 0 10px,
+    inset #50d8f7 0 0 0 11px,
+    inset #8ce9ff 0 0 0 16px,
+    inset #88e2f7 0 0 0 17px,
+    inset #c5f4ff 0 0 0 22px,
+    inset #bfecf7 0 0 0 23px;
+  background-image: linear-gradient(color, color);
+}
+html {
+  height: 4000px;
+  }
+  body {
+  background-image: linear-gradient(#FFFFFF, rgb(89, 155, 255));
+  padding: 0;
+  margin-top: 0%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgb#32e4fc(4, 15, 32);
+  }
+  .outer-box-frame{
+    border: 1rem solid #19d4ff;
+    margin: 5rem auto;
+    padding: 5rem;
+    max-width: 50rem;
+  }
+  .outer-box-frame {
+    background-color: rgb(229, 233, 241);
+  }
+  
+  h1 {
+    
+    /* top header information */
+    margin-bottom: 50px;
+    /* changed pixels to 50px */
+    font-size: 50px;
+    /* This will color the heading font dark blue. */
+    color: rgb(22, 1, 97);
+    /* Align the text to the center of its enclosing element (e.g. div). */
+    text-align: center;
+    /* Underline the text. */
+    text-decoration: underline;
+  }
+  header {
+    background: rgb(52, 11, 165);
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  a {
+    color: #ee6e05;
+    text-decoration: underline;
+  }
+  
+  /* Selecting elements by class */
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+    text-decoration: none;
+  }
+  
+  /* Selecting elements by ID */
+  #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left;
+  }
+  
+  #figure {
+    position: relative;
+  }
+  
+  #bio-name {
+    position: relative;
+    top: 30%;
+  }
+  
+  #main-bio {
+    width: 70%;
+  }
+  
+  #contact-info {
+    width: 30%;
+
+  }
+  
+  #bio-image {
+    width: 269px;
+    height: 359px;
+    margin-right: 20px;
+  }
+
+  #large-image {
+    width: 800px;
+    height: 600px;
+    margin-right: 30
+    align="middle";
+  }
+  p.outset {border-style: outset;
+  }
+  p.solid {border-style: solid;
+  }
+
+  table, td, th {
+    border: 2px solid black;
+    text-align: center;
+    table-layout: auto;
+    width: 500px;
+    border-collapse: separate;
+    height: 70px;
+  }
+  
+
+
+  div.sticky {
+    
+    position: sticky;
+    bottom: 0;
+    padding: 5px;
+    background-color: #42f3e4;
+    border: 2px solid #865ce7;
+   text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+ 
